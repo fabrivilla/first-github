@@ -1,4 +1,84 @@
 * {
   padding: 0%;
+  margin: 0%;
+}
+
+* {
+  padding: 0%;
+}
+
+body {
+  background-color: #ededed;
+  min-width: 320px;
+  overflow-x: hidden;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cec6c6), to(white));
+  background-image: linear-gradient(to top, #cec6c6, white);
+}
+
+body header nav img {
+  max-width: 100%;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  padding: 10px 0px 10px;
+  place-content: space-evenly;
+  background-color: #000;
+  background-image: -webkit-gradient(linear, right top, left top, from(whitesmoke), to(black));
+  background-image: linear-gradient(to left, whitesmoke, black);
+}
+
+body header nav ul li {
+  text-decoration: none;
+  color: #FFF;
+  font-size: smaller;
+}
+
+body header nav ul li a {
+  font-size: x-large;
+}
+
+body header nav ul li a img {
+  width: 49%;
+}
+
+main div iframe {
+  max-width: 100%;
+}
+
+footer {
+  color: #FFF;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-image: -webkit-gradient(linear, right top, left top, from(whitesmoke), to(black));
+  background-image: linear-gradient(to left, whitesmoke, black);
+}
+
+footer h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+footer a img {
+  height: 35px;
 }
 /*# sourceMappingURL=styles.css.map */
+
